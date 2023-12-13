@@ -1,0 +1,29 @@
+###
+POST http://localhost:8080/api/v1/task/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDI0NzE1MjUsImlkIjoiMSIsImV4cCI6MTcwMjU1NzkyNSwiaXNzIjoiZWZmZWN0In0.veq9uqsd6O8FM7RNRXIPHPCfopf5ODrodaexlyS-NNJS9gMWEY0TsR3H7X1v4ZV-_9hbRR6nWchZgyRZ9U0MBw
+
+{
+  "content": "dwsd",
+  "priority": "LOW",
+  "status": "PENDING"
+}
+
+
+###
+GET http://localhost:8080/api/v1/task/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDI0NzE1MjUsImlkIjoiMSIsImV4cCI6MTcwMjU1NzkyNSwiaXNzIjoiZWZmZWN0In0.veq9uqsd6O8FM7RNRXIPHPCfopf5ODrodaexlyS-NNJS9gMWEY0TsR3H7X1v4ZV-_9hbRR6nWchZgyRZ9U0MBw
+
+
+
+###
+PUT http://localhost:8080/api/v1/task/update/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDI0NzE1MjUsImlkIjoiMSIsImV4cCI6MTcwMjU1NzkyNSwiaXNzIjoiZWZmZWN0In0.veq9uqsd6O8FM7RNRXIPHPCfopf5ODrodaexlyS-NNJS9gMWEY0TsR3H7X1v4ZV-_9hbRR6nWchZgyRZ9U0MBw
+
+{
+  "content": "dsdwewewewewe",
+  "priority": "LOW",
+  "status": "COMPLETED"
+}
